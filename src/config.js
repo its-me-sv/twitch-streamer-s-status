@@ -1,6 +1,6 @@
 const config = {
-    CLIENT_ID: "s6aqc9vs3b1onozddxrd9dnhh29ni1",
-    AUTH_TOKEN: "uu8eadewb8sz4wqowo1ontueb9vcye"
+    CLIENT_ID: "6inoog3kba18j2ujchwvmv5sk23kd0",
+    AUTH_TOKEN: "9m7y0hk68owq165tujbbe05rt7lhck"
 };
 
 export default config;
