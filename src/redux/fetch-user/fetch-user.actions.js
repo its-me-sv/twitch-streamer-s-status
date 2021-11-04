@@ -5,7 +5,7 @@ const onFetchUserStart = username => dispatch => {
     dispatch({
         type:fetchUserTypes.FETCH_USER_PENDING
     });
-    fetch(`https://api.twitch.tv/helix/users?login=${username}`, {
+    fetch(`https://twitch-proxy.freecodecamp.rocks/helix/users?login=${username}`, {
         headers: {
             'Client-Id': config.CLIENT_ID,
             'Authorization': `Bearer ${config.AUTH_TOKEN}`
