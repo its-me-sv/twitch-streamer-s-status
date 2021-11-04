@@ -1,8 +1,8 @@
 {
   "files": {
     "main.css": "/twitch-streamer-s-status/static/css/main.735e4b70.chunk.css",
-    "main.js": "/twitch-streamer-s-status/static/js/main.97879082.chunk.js",
-    "main.js.map": "/twitch-streamer-s-status/static/js/main.97879082.chunk.js.map",
+    "main.js": "/twitch-streamer-s-status/static/js/main.e8833444.chunk.js",
+    "main.js.map": "/twitch-streamer-s-status/static/js/main.e8833444.chunk.js.map",
     "runtime-main.js": "/twitch-streamer-s-status/static/js/runtime-main.8b47b707.js",
     "runtime-main.js.map": "/twitch-streamer-s-status/static/js/runtime-main.8b47b707.js.map",
     "static/js/2.5f5289bd.chunk.js": "/twitch-streamer-s-status/static/js/2.5f5289bd.chunk.js",
@@ -16,6 +16,6 @@
     "static/js/runtime-main.8b47b707.js",
     "static/js/2.5f5289bd.chunk.js",
     "static/css/main.735e4b70.chunk.css",
-    "static/js/main.97879082.chunk.js"
+    "static/js/main.e8833444.chunk.js"
   ]
 }
