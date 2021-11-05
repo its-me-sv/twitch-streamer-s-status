@@ -10,6 +10,6 @@ export const defaultServers = [
     "noobs2ninjas"
 ];
 
-const streamsUrl = "https://twitch-proxy.freecodecamp.rocks/helix/streams?";
+const streamsUrl = "https://api.twitch.tv/helix/streams?";
 
 export const urlToFetch = streamsUrl + "user_login=" + defaultServers.join("&user_login=");

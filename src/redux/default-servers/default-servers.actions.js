@@ -1,5 +1,4 @@
 import defaultServersTypes from "./default-servers.types";
-import config from '../../config';
 
 import {urlToFetch} from './default-servers.data';
 
@@ -7,16 +6,15 @@ const startToFetchDefaultServers = () => dispatch => {
     dispatch({
         type: defaultServersTypes.DEFAULT_SERVERS_PENDING
     });
-    fetch(urlToFetch, {
-        headers: {
-            'Client-Id': config.CLIENT_ID,
-            'Authorization': `Bearer ${config.AUTH_TOKEN}`
-        }
+    fetch("https://desolate-island-20928.herokuapp.com/twitch-api", {
+        method: "POST",
+        headers: { 'Content-Type': 'application/json' },
+        body: JSON.stringify({urlToFetch, type: 1})
     })
-    .then(response => response.json())
+    .then(resp => resp.json())
     .then(data => dispatch({
         type: defaultServersTypes.DEFAULT_SERVERS_SUCCESS,
-        payload: data.data
+        payload: data
     }))
     .catch(error => dispatch({
         type: defaultServersTypes.DEFAULT_SERVERS_FAILURE,
